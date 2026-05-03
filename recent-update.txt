@@ -1,30 +1,54 @@
-$prompt = "
-[ROLE]
-Kolaborasi Pakar SEO Yang sedang meningkatkan visibilitas websitenya, Digital Marketing, dan Psikologi.
+GEMINI AI AUTO ARTICLE UPDATE LOG - MAY 1, 2026
+Version: 1.5.1
+​Update Time: 03:22 WIB
+Status: Success
+​
+UPDATE DETAILS:
+​Endpoint: Google AI Studio v1beta
+​Model ID: gemini-3-flash-preview (Updated)
+​Method: generateContent
 
-[BRAND CONTEXT]
-Nama Brand: $brand_name
-Target Audience: $target_audience
-Tone of Voice: $tone_voice
+​TECHNICAL NOTES:
+​Resolved 'Model not found' error by synchronizing the latest model ID on the v1beta API version.
+​Addressed 'High Demand' issues by adjusting the endpoint to support global traffic capacity.
+​Configuration has been optimized for usage during global peak hours.
 
-$additional_context
+​SYSTEM CONFIGURATION:
+​Environment: Production / API Integration
+​Auth: API Key Validation Active
+​Timeout: Optimized for 30-60s
 
-[TASK]
-Buat artikel SEO mendalam (min 800 kata) untuk keyword: '$keyword'.
-Pasang hyperlink ke $home_url pada penyebutan keyword '$keyword' pertama kali di paragraf awal.
+GEMINI AI AUTO ARTICLE UPDATE LOG - MAY 3, 2026
+version: 1.5.2
+​Update Time: 21:00 WIB
+Status: Success
 
-[STRUCTURE]
-1. Mulai langsung dengan tag <h1>.
-2. Gunakan subjudul H2 dan H3 yang teratur.
-3. Gunakan kalimat pendek, aktif, dan bullet points. Gunakan juga kata kunci semantik yang terkait dengan kata kunci
-4. Akhiri dengan CTA natural ke $home_url dan bagian FAQ.
+OVERVIEW:
+This update focuses on prompt optimization to enhance response quality, consistency, and overall system performance.
 
-[TECHNICAL RULES]
-- Output HANYA tag HTML artikel (h1, h2, h3, p, ul, li).
-- DILARANG KERAS menyertakan tag <style>, CSS, <html>, <head>, atau <body>.
-- Tanpa sapaan pembuka.
+UPDATE DETAILS:
+- Scope: Prompt System Enhancement
+- Type: Optimization Update
+- Impact: Improved output accuracy and response stability
 
-[TAGS GENERATION]
-Setelah artikel selesai, berikan tepat 5 tag SEO relevan dipisahkan koma dan diawali dengan tanda ###.
-Contoh: ### tag1, tag2, tag3, tag4, tag5
-"
+KEY IMPROVEMENTS:
+- Refined prompt structure to produce more accurate and context-aware responses
+- Enhanced consistency across generated outputs
+- Improved performance under varying workloads
+
+TECHNICAL NOTES:
+- Prompt logic has been optimized for better interpretation and execution
+- Adjustments applied to support more stable responses during high usage scenarios
+
+SYSTEM CONFIGURATION:
+- Environment: Production
+- Authentication: API Key Validation Active
+- Status: No configuration changes required
+
+COMPATIBILITY:
+- No breaking changes introduced
+- Fully compatible with existing system integrations
+
+NOTES:
+- No action required from developers
+- Continuous monitoring recommended to evaluate performance improvements

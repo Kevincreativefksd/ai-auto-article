@@ -2,11 +2,11 @@
 /*
 Plugin Name: AI Auto Article Gemini Pro
 Description: Generate artikel otomatis dengan Brand Context, Informasi Tambahan Opsional, dan Internal Link Beranda.
-Version: 1.5
+Version: 1.5.2
 Author: Kevin
 */
 
-if (!defined('ABSPATH')) {
+    if (!defined('ABSPATH')) {
     exit;
 }
 
@@ -127,8 +127,8 @@ function aaa_generate_article($keyword, $extra_info = '') {
     
     set_time_limit(300);
 
-    // MENGGUNAKAN MODEL 2.5 FLASH (Paling Stabil untuk API Free Tier)
-    $model_name = "gemini-2.5-flash"; 
+    // MENGGUNAKAN MODEL 3 FLASH (Paling Stabil untuk API Free Tier)
+    $model_name = "gemini-3-flash-preview"; 
     $endpoint = "https://generativelanguage.googleapis.com/v1beta/models/{$model_name}:generateContent?key=" . $api_key;
 
     $additional_context = "";
@@ -166,6 +166,10 @@ Gunakan subjudul H2 dan H3 yang mengandung variasi semantic keyword dan long-tai
 
 Gunakan kalimat pendek, nada aktif, dan bullet points untuk meningkatkan 'Readability Score'.
 
+Sisipkan insight berbasis pengalaman (E-E-A-T)
+
+Gunakan data atau penjelasan faktual untuk memperkuat kredibilitas
+
 Setiap bagian harus memberikan nilai praktis (Utility) dan validasi psikologis bagi $target_audience.
 
 Akhiri dengan CTA (Call to Action) natural ke $home_url dan bagian FAQ (min 3 pertanyaan).
@@ -180,6 +184,11 @@ Tanpa sapaan pembuka atau komentar di luar artikel.
 
 Berikan markdown yang sesuai dengan ketentuan google dan suport di wordpress
 
+Buat artikel terasa human-written
+
+Jangan terlalu AI sounding
+
+Fokus pada value, bukan hanya panjang tulisan
 [TAGS GENERATION]
 Setelah artikel selesai, berikan tepat 5 tag SEO yang paling relevan (kombinasi head dan long-tail) dipisahkan koma dan diawali dengan tanda ###.
 Contoh: ### tag1, tag2, tag3, tag4, tag5
