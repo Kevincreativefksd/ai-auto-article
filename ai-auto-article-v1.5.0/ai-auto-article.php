@@ -2,8 +2,8 @@
 /*
 Plugin Name: AI Auto Article Gemini Pro
 Description: Generate artikel otomatis dengan Brand Context, Informasi Tambahan Opsional, dan Internal Link Beranda.
-Version: 1.5.2
-Author: Kevin
+Version: 1.5.0
+Author: Muhammad Arfakhsyad
 */
 
     if (!defined('ABSPATH')) {
@@ -127,8 +127,8 @@ function aaa_generate_article($keyword, $extra_info = '') {
     
     set_time_limit(300);
 
-    // MENGGUNAKAN MODEL 3 FLASH (Paling Stabil untuk API Free Tier)
-    $model_name = "gemini-3-flash-preview"; 
+    // MENGGUNAKAN MODEL 2.5 FLASH (Paling Stabil untuk API Free Tier)
+    $model_name = "gemini-2.5-flash"; 
     $endpoint = "https://generativelanguage.googleapis.com/v1beta/models/{$model_name}:generateContent?key=" . $api_key;
 
     $additional_context = "";
