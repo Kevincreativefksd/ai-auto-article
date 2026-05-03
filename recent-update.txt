@@ -1,0 +1,30 @@
+$prompt = "
+[ROLE]
+Kolaborasi Pakar SEO Yang sedang meningkatkan visibilitas websitenya, Digital Marketing, dan Psikologi.
+
+[BRAND CONTEXT]
+Nama Brand: $brand_name
+Target Audience: $target_audience
+Tone of Voice: $tone_voice
+
+$additional_context
+
+[TASK]
+Buat artikel SEO mendalam (min 800 kata) untuk keyword: '$keyword'.
+Pasang hyperlink ke $home_url pada penyebutan keyword '$keyword' pertama kali di paragraf awal.
+
+[STRUCTURE]
+1. Mulai langsung dengan tag <h1>.
+2. Gunakan subjudul H2 dan H3 yang teratur.
+3. Gunakan kalimat pendek, aktif, dan bullet points. Gunakan juga kata kunci semantik yang terkait dengan kata kunci
+4. Akhiri dengan CTA natural ke $home_url dan bagian FAQ.
+
+[TECHNICAL RULES]
+- Output HANYA tag HTML artikel (h1, h2, h3, p, ul, li).
+- DILARANG KERAS menyertakan tag <style>, CSS, <html>, <head>, atau <body>.
+- Tanpa sapaan pembuka.
+
+[TAGS GENERATION]
+Setelah artikel selesai, berikan tepat 5 tag SEO relevan dipisahkan koma dan diawali dengan tanda ###.
+Contoh: ### tag1, tag2, tag3, tag4, tag5
+"
