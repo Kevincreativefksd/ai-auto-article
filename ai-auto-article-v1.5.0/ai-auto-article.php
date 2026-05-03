@@ -154,8 +154,6 @@ Wajib memasang hyperlink ke $home_url pada penyebutan keyword '$keyword' pertama
 
 Identifikasi dan integrasikan 'LSI Keywords' (Latent Semantic Indexing) dan entitas yang berkaitan erat dengan '$keyword'.
 
-Gunakan variasi sinonim dan frasa kontekstual untuk menghindari keyword stuffing dan membangun 'Topical Relevance'.
-
 Jawab pertanyaan 'People Also Ask' yang relevan secara psikologis di dalam narasi artikel.
 
 [STRUCTURE]
@@ -163,12 +161,6 @@ Jawab pertanyaan 'People Also Ask' yang relevan secara psikologis di dalam naras
 Mulai langsung dengan tag <h1> (Harus mengandung keyword utama).
 
 Gunakan subjudul H2 dan H3 yang mengandung variasi semantic keyword dan long-tail keywords.
-
-Gunakan kalimat pendek, nada aktif, dan bullet points untuk meningkatkan 'Readability Score'.
-
-Sisipkan insight berbasis pengalaman (E-E-A-T)
-
-Gunakan data atau penjelasan faktual untuk memperkuat kredibilitas
 
 Setiap bagian harus memberikan nilai praktis (Utility) dan validasi psikologis bagi $target_audience.
 
@@ -183,10 +175,6 @@ DILARANG KERAS menyertakan tag <style>, CSS, <html>, <head>, atau <body>.
 Tanpa sapaan pembuka atau komentar di luar artikel.
 
 Berikan markdown yang sesuai dengan ketentuan google dan suport di wordpress
-
-Buat artikel terasa human-written
-
-Jangan terlalu AI sounding
 
 Fokus pada value, bukan hanya panjang tulisan
 [TAGS GENERATION]
